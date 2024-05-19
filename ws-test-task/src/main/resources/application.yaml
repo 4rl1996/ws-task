@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: ws-test-task
+
+test:
+  task:
+    uri: "wss://stream-testnet.bybit.com/v5/public/linear"
+    topics: "publicTrade.BTCUSDT,orderbook.50.BTCUSDT"
